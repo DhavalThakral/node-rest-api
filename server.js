@@ -39,5 +39,5 @@ app.use('/',router);
 require('./app/routes/user.routes.js')(router);
 
 app.listen(config.Port, () => {
-    console.log("Server is listening on port 3001")
+    console.log("Server is listening on port : " + config.Port)
 });
